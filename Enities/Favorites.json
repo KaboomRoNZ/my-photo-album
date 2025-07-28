@@ -1,0 +1,54 @@
+{
+  "name": "Photo",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Photo title or caption"
+    },
+    "description": {
+      "type": "string",
+      "description": "Photo description"
+    },
+    "file_url": {
+      "type": "string",
+      "description": "URL of the uploaded photo"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags for organizing photos"
+    },
+    "event": {
+      "type": "string",
+      "description": "Event or occasion name"
+    },
+    "date_taken": {
+      "type": "string",
+      "format": "date",
+      "description": "Date when photo was taken"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location where photo was taken"
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "People in the photo"
+    },
+    "is_favorite": {
+      "type": "boolean",
+      "default": false,
+      "description": "Mark as favorite photo"
+    }
+  },
+  "required": [
+    "title",
+    "file_url"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Comment",
+  "type": "object",
+  "properties": {
+    "photo_id": {
+      "type": "string",
+      "description": "ID of the photo this comment belongs to"
+    },
+    "content": {
+      "type": "string",
+      "description": "Comment text"
+    },
+    "author_name": {
+      "type": "string",
+      "description": "Name of the comment author"
+    }
+  },
+  "required": [
+    "photo_id",
+    "content",
+    "author_name"
+  ]
+}
