@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from '../Layout.js'; // Note the path goes up one directory
+import Layout from '../Layout.jsx'; // Note the path goes up one directory
 import Dashboard from '../Pages/Dashboard.jsx';
 import Gallery from '../Pages/Gallery.jsx';
 import Favorites from '../Pages/Favorites.jsx';
